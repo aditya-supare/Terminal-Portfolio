@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
-import { SiNetlify, SiReact, SiTailwindcss } from "react-icons/si";
+import { SiNextdotjs, SiReact, SiVercel } from "react-icons/si";
 
 export default function About() {
 	const techs = [
-		{ Icon: SiReact, color: "text-blue-500", duration: "duration-500" },
-		{ Icon: SiTailwindcss, color: "text-blue-300", duration: "duration-700" },
-		{ Icon: SiNetlify, color: "text-green-400", duration: "duration-1000" },
+		{ Icon: SiReact, color: "text--500", duration: "duration-500" },
+		{ Icon: SiNextdotjs, color: "text--300", duration: "duration-700" },
+		{ Icon: SiVercel, color: "text--400", duration: "duration-1000" },
 	];
 	const [animate, setAnimate] = useState(false);
 	useEffect(() => {
@@ -22,8 +22,7 @@ export default function About() {
 				Tech stack
 			</h1>
 			<p className="text-lg animate-reveal-0.7">
-				This site is pure written with React and Tailwindcss only. For the
-				deployment, We deploy it on Netlify.
+				This site is made with Next.js and deployed on Vercel.
 			</p>
 			<div className="flex gap-5 text-4xl">
 				{techs.map(({ Icon, color, duration }, index) => {

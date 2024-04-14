@@ -15,7 +15,7 @@ export default function Contact() {
 		{
 			text: "Resume",
 			value: "link to resume",
-			href: "https://youtube.com",
+			href: "https://drive.google.com/file/d/1-P8-4YX0uSdT6upSRdlesOKj473Cufme/view",
 		},
 		
 	];

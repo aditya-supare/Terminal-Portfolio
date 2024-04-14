@@ -17,6 +17,11 @@ export default function Projects() {
             value: "Github Link",
 			href: "https://github.com/aditya-supare/Fitness-tracker",
 		},
+		{
+			text: "Terminal Portfolio (Next.js)",
+            value: "Github Link",
+			href: "https://github.com/aditya-supare/Terminal-Portfolio",
+		},
 		
 	];
 	return (
