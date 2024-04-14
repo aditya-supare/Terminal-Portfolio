@@ -5,7 +5,7 @@ export default function TodayDate() {
 	};
 	return (
 		<div>
-			<h1>Today is, {renderDate()}</h1>
+			<h1>Is Today {renderDate()} ?</h1>
 		</div>
 	);
 }

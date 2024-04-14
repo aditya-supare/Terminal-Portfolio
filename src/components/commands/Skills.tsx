@@ -1,5 +1,7 @@
 import ProgressBar from "../ProgressBar";
 import {
+	SiAdobeaftereffects,
+	SiBlender,
 	SiExpress,
 	SiNextdotjs,
 	SiReact,
@@ -29,8 +31,8 @@ export default function Skills() {
 		},
 		{
 			Icon: SiExpress,
-			barWidth: "w-80%",
-			percentageValue: "80%",
+			barWidth: "w-45%",
+			percentageValue: "45%",
 			text: "Express.js",
 		},
 		{
@@ -38,6 +40,18 @@ export default function Skills() {
 			barWidth: "w-85%",
 			percentageValue: "85%",
 			text: "Next.js",
+		},
+		{
+			Icon: SiBlender,
+			barWidth: "w-80%",
+			percentageValue: "80%",
+			text: "Blender",
+		},
+		{
+			Icon: SiAdobeaftereffects,
+			barWidth: "w-95%",
+			percentageValue: "95%",
+			text: "After Effects",
 		},
 	];
 

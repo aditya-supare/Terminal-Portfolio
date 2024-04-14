@@ -4,14 +4,20 @@ export default function Contact() {
 	const contacts = [
 		{
 			text: "Phone number",
-			value: "+85595419150",
-			href: "tel:85595419150",
+			value: "+919650430466",
+			href: "tel:919650430466",
 		},
 		{
 			text: "Email",
-			value: "sokhengchen@gmail.com",
-			href: "mailto:sokhengchen@gmail.com",
+			value: "adityasupare2003@gmail.com",
+			href: "mailto:adityasupare2003@gmail.com",
 		},
+		{
+			text: "Resume",
+			value: "link to resume",
+			href: "https://youtube.com",
+		},
+		
 	];
 	return (
 		<div className="w-11/12 mx-auto">

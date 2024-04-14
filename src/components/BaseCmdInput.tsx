@@ -1,6 +1,6 @@
 import React from "react";
 import { GiClover, GiOpenFolder } from "react-icons/gi";
-import { GoTriangleRight } from "react-icons/go";
+import { GoTriangleRight} from "react-icons/go";
 
 interface BaseCmdInputProps {
 	Children: React.ReactNode;
@@ -16,7 +16,7 @@ export default function BaseCmdInput({
 				<div className="w-5 h-1 bg-blue-600"></div>
 				<div className="flex gap-1 items-center bg-green-700 pl-2">
 					<GiClover />
-					<h1>chensokheng</h1>
+					<h1>Desktop</h1>
 				</div>
 				<div
 					className=" w-5 h-7 bg-green-700 z-20"
@@ -46,7 +46,7 @@ export default function BaseCmdInput({
 					<div className="h-1 w-4 bg-blue-600 translate-y-2 -translate-x-1"></div>
 				</div>
 				<div className="translate-y-2 -translate-x-3">
-					<GoTriangleRight className="text-2xl text-blue-500" />
+					<GoTriangleRight className="text-1xl text-blue-500" />
 				</div>
 				<>{Children}</>
 			</div>

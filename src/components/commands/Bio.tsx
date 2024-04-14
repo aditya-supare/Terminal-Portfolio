@@ -1,47 +1,46 @@
 import { GoVerified } from "react-icons/go";
-import { SiGithub, SiPatreon, SiYoutube } from "react-icons/si";
+import { SiArtstation, SiGithub, SiYoutube } from "react-icons/si";
 
 export default function Bio() {
 	const links = [
 		{
 			title: "Github",
 			Icon: SiGithub,
-			href: "https://github.com/Chensokheng",
-			text: "@Chensokheng",
+			href: "https://github.com/aditya-supare",
+			text: "@adityasupare",
 		},
 		{
 			title: "Youtube",
 			Icon: SiYoutube,
-			href: "https://www.youtube.com/c/DailyWebCoding",
-			text: "@Dailywebcoding",
+			href: "https://www.youtube.com/@wabi3958/featured",
+			text: "@wabi",
 		},
 		{
-			title: "Patreon",
-			Icon: SiPatreon,
-			href: "https://www.patreon.com/dailywebcoding",
-			text: "@Patreon",
+			title: "ArtStation",
+			Icon: SiArtstation,
+			href: "https://www.artstation.com/wabi_001",
+			text: "@artstation",
 		},
 	];
 	return (
 		<div className="mt-2 mb-2 w-11/12 mx-auto">
 			<div className="flex items-center gap-3 mb-3 ">
 				<img
-					src="https://avatars.githubusercontent.com/u/52232579?s=400&u=66d824859d14da9ffc4dcb32f3aca6631abb95af&v=4"
-					alt="Chensokheng"
-					className="w-40 h-40 rounded-full border-2 border-yellow-200"
+					src="https://avatars.githubusercontent.com/u/111862833?s=400&u=91521813a86842ec3150b3218c21c94da8665082&v=4"
+					alt="AdityaSupare"
+					className="w-40 h-40 rounded-full border-2 border-green-300"
 				/>
 				<div>
 					<div className="flex items-center gap-1">
-						<h1 className="text-2xl">Chensokheng</h1>
+						<h1 className="text-2xl">Aditya Supare</h1>
 						<GoVerified className="text-blue-500 text-2xl" />
 					</div>
-					<p className="text-lg text-gray-400">Join the world 22 years ago.</p>
+					<p className="text-lg text-gray-400">joined 21 years ago</p>
 				</div>
 			</div>
 			<p>
-				Hi there, I am a software developer/youtuber. Passionate with web
-				development and like to learn new thing related to coding and sharing it
-				to the internet through my youtube.
+			Hello! I'm a web developer with a passion for 2D/3D art. I love merging my artistic flair 
+			with web development to create immersive online experiences.
 			</p>
 			<div className="grid grid-cols-2">
 				{links.map(({ Icon, text, href, title }, index) => {

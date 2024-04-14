@@ -29,7 +29,7 @@ export default function Navbar() {
 				<div className="flex-1 mr-16 flex justify-center items-center">
 					<div className="flex items-center gap-1">
 						<VscTerminalBash className="text-xl" />
-						<h1 className="text-center">Chensokheng/terminal_portfolio</h1>
+						<h1 className="text-center">AdityaSupare/terminal_portfolio</h1>
 					</div>
 				</div>
 			</div>

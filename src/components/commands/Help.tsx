@@ -9,6 +9,7 @@ export default function Help() {
 		{ cmd: "bio", detail: "Show my bio information." },
 		{ cmd: "skill", detail: "List all of my skills." },
 		{ cmd: "contact", detail: "List all of the contacts." },
+		{ cmd: "project", detail: "List all of the projects." },
 		{ cmd: "about", detail: "To see what is terminal portfolio." },
 		{ cmd: "ctrl + l", detail: "To clear the history." },
 	];
