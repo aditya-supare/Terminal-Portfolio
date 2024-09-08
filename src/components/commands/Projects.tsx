@@ -3,25 +3,30 @@ import React from "react";
 export default function Projects() {
 	const Projects = [
 		{
-			text: "Calucator(React) ",
+			text: "GrantX ",
             value: "Github Link",
-			href: "https://github.com/aditya-supare/MyCalculator-react",
+			href: "https://github.com/aditya-supare/grantx-dev",
 		},
 		{
-			text: "Tic Tac Toe (React)",
+			text: "Vero-db",
             value: "Github Link",
-			href: "https://github.com/aditya-supare/tictactoeREACT",
+			href: "https://github.com/aditya-supare/verodb-dev",
 		},
         {
-			text: "Fitness Tracker(MERN)",
+			text: "Cosmic-Calm",
             value: "Github Link",
-			href: "https://github.com/aditya-supare/Fitness-tracker",
+			href: "https://github.com/aditya-supare/Cosmic-Calm",
 		},
 		{
-			text: "Terminal Portfolio (Next.js)",
+			text: "CineSync",
             value: "Github Link",
-			href: "https://github.com/aditya-supare/Terminal-Portfolio",
+			href: "https://github.com/aditya-supare/CineSync",
 		},
+		{
+			text: "Ed-gpt",
+            value: "Github Link",
+			href: "https://github.com/aditya-supare/Ed-GPT",
+		}
 		
 	];
 	return (

@@ -5,6 +5,7 @@ import {
 	SiExpress,
 	SiNextdotjs,
 	SiReact,
+	SiSupabase,
 	SiTailwindcss,
 	SiTypescript,
 } from "react-icons/si";
@@ -22,6 +23,12 @@ export default function Skills() {
 			barWidth: "w-65%",
 			percentageValue: "65%",
 			text: "Tailwindcss",
+		},
+		{
+			Icon: SiSupabase,
+			barWidth: "w-65%",
+			percentageValue: "65%",
+			text: "Supabase",
 		},
 		{
 			Icon: SiExpress,

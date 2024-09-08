@@ -15,24 +15,48 @@ function renderCmd(cmd: string): CmdHistory {
 				Component: Help,
 				time: "",
 			};
+		case "ls ":
+			return {
+				cmd,
+				Component: Help,
+				time: "",
+			};	
 		case "bio":
 			return {
 				cmd,
 				Component: Bio,
 				time: "",
 			};
+		case "bio ":
+			return {
+				cmd,
+				Component: Bio,
+				time: "",
+			};	
 		case "skill":
 			return {
 				cmd,
 				Component: Skills,
 				time: "",
 			};
+		case "skill ":
+			return {
+				cmd,
+				Component: Skills,
+				time: "",
+			};	
 		case "contact":
 			return {
 				cmd,
 				Component: Contact,
 				time: "",
 			};
+		case "contact ":
+			return {
+				cmd,
+				Component: Contact,
+				time: "",
+			};	
 		case "about": {
 			return {
 				cmd,
@@ -40,7 +64,21 @@ function renderCmd(cmd: string): CmdHistory {
 				time: "",
 			};
 		}
+		case "about ": {
+			return {
+				cmd,
+				Component: About,
+				time: "",
+			};
+		}
 		case "project": {
+			return {
+				cmd,
+				Component:Projects,
+				time: "",
+			}
+		}
+		case "project ": {
 			return {
 				cmd,
 				Component:Projects,
